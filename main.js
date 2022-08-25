@@ -50,7 +50,7 @@ function draw(){
     }
     if(style == "lipstick"){
         circle(lipstickX,lipstickY,0);
-        image(lipstick_image, lipstickX-25, lipstickY+10, 55, 45);
+        image(lipstick_image, lipstickX-30, lipstickY+10, 60, 50);
     }
     if(style == "goggle"){
         circle(goggleX,goggleY,0);
