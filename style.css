@@ -1,0 +1,37 @@
+h1{
+    font-size: 40px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+#download:hover{
+    background-color: red;
+}
+
+body{
+    animation-name: nothing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nothing{
+    0%{background-color:turquoise ;}
+    25%{background-color:crimson ;}
+    50%{background-color:cornflowerblue ;}
+    75%{background-color:lightgreen ;}
+    100%{background-color:skyblue ;}
+}
+
+button{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+ canvas{
+    border-radius: 10%;
+    margin-left: 500px;
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+}
+
+.gg{
+    margin-left: 1000px;
+}
